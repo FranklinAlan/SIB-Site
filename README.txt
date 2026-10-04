@@ -1,5 +1,5 @@
 DR. ALAN FRANKLIN — DRAFT FOR FACULTY REVIEW
-Browser-based learning activity; no VR.
+Browser-based learning activity.
 No colleague participation, review, or endorsement is implied.
 Please review locally before deciding whether to publish or use with students.
 
