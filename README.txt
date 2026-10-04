@@ -1,6 +1,12 @@
+DR. ALAN FRANKLIN — DRAFT FOR FACULTY REVIEW
+Browser-based learning activity; no VR.
+No colleague participation, review, or endorsement is implied.
+Please review locally before deciding whether to publish or use with students.
+
 SIB — CONFIDENCE, CONTEXT & VERIFICATION
 Updated educational review edition · October 2026
 
+OPTIONAL LATER PUBLICATION — ONLY AFTER YOUR REVIEW DECISION
 WHAT TO COPY INTO GITHUB
 Copy the CONTENTS of the website folder, not the outer delivery folder.
 Replace matching files: index.html, sib.html, app.js, style.css, videos/.
@@ -49,3 +55,10 @@ PRIVACY
 Answers remain only in page memory. Reloading/leaving clears them.
 No analytics, cookies, response submission, or persistent answer storage.
 Hosting providers may keep standard access logs.
+
+NEW IN THIS DRAFT
+Only Dr. Alan Franklin is identified as developing this activity.
+Psychology and human factors connect confidence, familiarity, expectations,
+social pressure, interface support, and agency to the student decisions.
+A three-part case report asks what evidence supports, what remains unknown,
+and what action is justified. It is included in the printed reflection.

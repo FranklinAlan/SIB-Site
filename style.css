@@ -4,3 +4,5 @@
 @media print{header,footer,.journey,button,.button,video,.footer-details,#welcome,#opening,#observe,#context,#pressure,#transfer,#reset-confirm{display:none!important}#results{display:block!important}body{background:white;font-size:12px}main{max-width:none;padding:0}.cards{grid-template-columns:repeat(3,1fr)}section{padding:10px 0}.reflection-record,.map,.card{break-inside:avoid}textarea{border:0;min-height:0}a{color:inherit}h2{font-size:25px}}
 
 .print-only{display:none}@media print{#takeaway,label[for=takeaway]{display:none}.print-only{display:block;white-space:pre-wrap;overflow-wrap:anywhere}}
+
+@media print{#case-supported,#case-unknown,#case-action,label[for=case-supported],label[for=case-unknown],label[for=case-action]{display:none}#printed-case p{white-space:pre-wrap;overflow-wrap:anywhere}}

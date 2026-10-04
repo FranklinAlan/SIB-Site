@@ -1,6 +1,17 @@
+REVIEW FIRST — DO NOT PUSH THIS DRAFT YET
+
+1. Unzip this package.
+2. Open website/index.html in Chrome, keeping all supporting folders together.
+3. Complete Try SIB and read the facilitator review guide.
+4. Arrange your colleague review before deciding on further development or use.
+5. No review or endorsement by another faculty member is implied.
+
+Your live website has not been changed. The steps below are optional later
+publication instructions, to use only after you decide to publish.
+
 START HERE — UPDATE YOUR EXISTING GITHUB PAGES SITE
 
-1. Unzip SIB_Improved_Learning_Activity.zip.
+1. Unzip SIB_Franklin_Faculty_Review_Draft.zip.
 2. Open its website folder.
 3. In GitHub Desktop, open the existing SIB-Site repository.
 4. Choose Repository > Show in Finder.
