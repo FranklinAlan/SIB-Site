@@ -1,0 +1,49 @@
+START HERE — UPDATE YOUR EXISTING GITHUB PAGES SITE
+
+1. Unzip SIB_Improved_Learning_Activity.zip.
+2. Open its website folder.
+3. In GitHub Desktop, open the existing SIB-Site repository.
+4. Choose Repository > Show in Finder.
+5. Copy everything INSIDE website/ into that repository folder.
+   Replace matching files and merge/replace the videos and assets folders.
+   Do not put the website folder itself inside the repository.
+6. Make sure these are at the repository's top level:
+   index.html, sib.html, facilitator.html, app.js, learning.js, style.css,
+   README.txt, UPDATE_GUIDE.txt, assets/, videos/, and .nojekyll.
+7. Do not copy SUPPORT/. That folder preserves original-audio clips,
+   recommendation status, and technical test notes for faculty.
+8. Commit with: Improve SIB evidence practice and accessibility
+9. Click Push origin.
+10. Wait for GitHub Pages to finish publishing; refresh your existing site.
+11. Open Try SIB and complete the full path once before sharing with students.
+
+YOUR EXISTING PUBLIC SITE HAS NOT BEEN CHANGED BY THIS DOWNLOAD.
+The available GitHub connection reports read access but no push permission.
+
+WHAT YOU WILL SEE
+The familiar cream/maroon look, clearer cards, stable video frames,
+intentional confidence choices, two varied first-impression exercises,
+an evidence-card library case, a caption-pressure exercise, an unfamiliar
+shuttle case, a confidence dot display and accessible table, and a printable
+reflection that brings back students' own reasoning.
+The other three supplied videos remain optional examples.
+
+IMPORTANT DIFFERENCES
+- Fictional evidence cases are clearly labeled throughout.
+- Supplied clip authenticity labels are unresolved and no longer scored.
+- Students can select "cannot tell" and retain agency.
+- Student clips have no audio; descriptive text supports visual exercises.
+- Original-audio clips remain unchanged in SUPPORT/originals/.
+- PromptPilot remains planned because its project materials were not supplied.
+- A starting question/final score is not presented as proof of learning.
+
+READY FOR
+Faculty review and planning a small usability pilot after media/reuse review.
+The text-only case route can be reviewed without JavaScript or video.
+
+STILL NEEDED BEFORE BROAD RELEASE
+Verified media source/alteration records and reuse review.
+Approved original-audio captions/transcripts if restoring sound.
+Actual screen-reader and physical iOS/Android checks.
+A student pilot to assess engagement, usability, understanding, and unintended
+distrust/overconfidence. No effectiveness claim has been added.
