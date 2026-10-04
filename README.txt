@@ -1,51 +1,29 @@
-SEEING ISN’T BELIEVING (SIB)
-GitHub Pages website — two selected example videos
+STUDENT LEARNING LAB — SIB + PROMPTPILOT REVIEW EDITION
 
-FILES
-index.html              Homepage and complete interactive activity
-videos/example-1.mp4     First selected example (original video)
-videos/example-2.mp4     Second selected example (original video)
-.nojekyll               Serves the website as plain static files
-CHANGE_VIDEOS.txt        Instructions for replacing videos and answer labels
+PURPOSE
+Fun learning activities for students, prepared for Alan and Alex to review. Every activity should have clear outcomes, practice, feedback, and an application check. SIB is complete in this edition. PromptPilot is clearly marked planned: its materials were not supplied, so no project-specific activity or outcome is invented.
 
-Styles, JavaScript, and the favicon are embedded in index.html. No build,
-installation, external fonts, or third-party script files are required.
-Every local link is relative, so the site works under a GitHub project path.
-Biden’s video is not included. PromptPilot is a separate project and is not
-part of this SIB-only website.
+UPDATE GITHUB
+Unzip. Copy the CONTENTS into your SIB-Site repository folder (GitHub Desktop > Repository > Show in Finder), replacing matching files. Include index.html, sib.html, app.js, style.css, README.txt, and videos/. Commit: Add student learning activities. Push origin. Keep existing Pages settings. Homepage now opens the shared lab; Try SIB opens sib.html.
 
-OPEN LOCALLY
-Extract the ZIP, then open index.html in Chrome or Edge. Keep the videos
-folder next to index.html. The activity works offline.
+LOCAL PREVIEW
+Open index.html in Chrome with the other files alongside it.
 
-PUBLISH TO GITHUB PAGES
-1. Extract the ZIP.
-2. Copy its contents into the root of your GitHub repository. index.html
-   should be directly at the root, with the videos folder beside it.
-3. Use GitHub Desktop or Git to commit and push the files. The largest clip
-   is about 39.5 MB, above GitHub’s 25 MiB browser-upload limit.
-4. In the repository, select Settings > Pages > Deploy from a branch.
-5. Choose your publishing branch (usually main), choose /(root), and Save.
-6. Open the published address shown by GitHub Pages and try both videos.
+SIB LEARNING GOALS
+Distinguish confidence from correctness; distinguish authenticity from claim accuracy; choose verification before sharing. Five clips with predictions, confidence ratings, explanations and reflection; sharing mission; three-question learning check with feedback and retry; confidence map and printable takeaway. The check does not prove learning gains. This education activity differs from the SIB research protocol and is not a data collection tool.
 
-Upload the extracted files, not the ZIP itself. Preserve filenames and
-folder names exactly. A standard GitHub Pages site is publicly accessible.
+ALAN / ALEX REVIEW
+Try all five clips and final check. Are the outcomes useful? Is the feedback clear? Is the activity engaging? What would a student apply afterward? Confirm media answer labels and supply captions/transcripts before broad use. Decide how to link this review from EKU if appropriate.
 
-Official instructions:
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+MEDIA
+clip-1: original example-1, authentic per SIB record.
+clip-2: original example-2, manipulated per SIB record.
+clip-3: Video 2 - Real, authentic per supplied filename.
+clip-4: Video 4 - Deepfake, manipulated per supplied filename.
+clip-5: Video 5 - Real, authentic per supplied filename.
+Video 4 - Real excluded because sampled frames show a subscribe animation.
+Labels not independently authenticated. Authentic does not mean the clip's claims are true; acted fictional footage can be authentic. No Biden clip added.
+Web videos compressed to H.264/AAC; preserve originals separately. Compression affects visual detail. No captions/transcripts were supplied.
 
-ACTIVITY
-Visitors judge two clips and rate confidence from 50% to 100%. Feedback
-appears after both responses. The page offers reflection, replay, and reset.
-Activity responses stay in page memory and clear on reload. The page has
-no response collection or external AI calls. A hosting provider may keep
-its own standard access or security logs.
-
-SOURCE
-The two MP4s are unchanged copies of the selected Session 2 examples from
-slides 7 and 8 of SIB_SESSION2_UPDATED_EXAMPLE_SLIDES_7-9.pptx. Answer labels
-follow the supplied SIB internal example record and selection criteria.
-They are not new independent media authentication. The examples are outside
-experimental Sets A and B. This educational version adds new judgments and
-confidence ratings to the example clips.
+PRIVACY
+No analytics, response submissions, cookies, or persistent response storage are implemented. Responses clear on reload. Hosting providers may keep access logs.
