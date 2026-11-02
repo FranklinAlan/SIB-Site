@@ -1,99 +1,67 @@
 SIB EVIDENCE LAB — RESEARCH UPDATE
-Version 3.1.0-reflection | 2 November 2026
+Version 3.2.0-learning | 2 November 2026
 
 START
-1. Extract this ZIP. Do not open the HTML from inside the compressed ZIP.
-2. Open index.html in Chrome, Edge, Firefox, or Safari.
-3. Keep all files in the same folder. No installation or build is required.
+1. Extract this ZIP. Keep all seven files together.
+2. Open index.html in a current browser, or replace the matching files in your existing repository.
+3. Read teacher-guide.html before a class. No build, installation, account, or external assets are needed.
 
-WHAT CHANGED IN 3.1
-- Write an explanation of the causal judgment before feedback, or explicitly skip it.
-- Revisit that explanation after the editorial decision. Retain, clarify, revise, or remain unsure.
-- Save three reflection responses, or explicitly skip the reflection. No reflection choice is scored.
-- Original and later reasoning are separate in the notebook, print report, CSV, and JSON.
-- Draft writing saves as you type. A new game storage key separates version 3.1 from 3.0 records.
-
-RETAINED FROM 3.0
-- Students judge a supported descriptive finding alongside an unresolved causal claim.
-- Reason and headline choices are similar in length and tone.
-- Students select an accurate headline and decisive evidence before seeing their completed bulletin.
-- Two short posts trace to one fictional study.
-- Three unfamiliar assessment cases are separate from gameplay and provide no hints or feedback.
-- Original first responses remain saved; headline revisions do not overwrite them.
-- Optional hints, untimed play, the lab design, and a short instructor debrief remain.
+SIX CHANGES IN 3.2
+- Save two judgments and an original explanation BEFORE supplied reasons appear.
+- Feedback accurately describes answers and puts the corrective principle first.
+- Assessment A-D adds source tracing, scope, and a student-written update in a new library-hours case.
+- Save a first evidence-note draft, review a checklist, optionally revise, and keep both versions.
+- Debrief with a separate randomized experiment AFTER independent assessment.
+- Answer two reflection prompts by typing, on agreed paper, or orally with a facilitator; explicit skipping remains possible.
 
 FILES
-index.html             Main game. Self-contained; no external assets.
-sib.html               Redirect for people using your older sib.html link.
-assessment.html        Separate three-case assessment, printable or interactive.
-teacher-guide.html     Facilitation, keys, reason rubric, debrief, and evaluation limits.
-response-sheet.html    Printable record for the FocusBoost practice activity.
-research-changes.html  Research-to-change map, source links, and verification notes.
+index.html             Updated game, version 3.2.0-learning.
+sib.html               Legacy-link redirect to index.html.
+assessment.html        Independent Form A, version 3.2.0-form-a, four cases.
+teacher-guide.html     Sequence, neutral briefing, keys, rubrics, debrief, records, and pilot limits.
+response-sheet.html    Three staged practice sheets. Release Stage 1 before Stage 2.
+research-changes.html  Research rationale, changes, and verification.
 START_HERE.txt         These instructions.
 
-UPDATE YOUR EXISTING GITHUB PAGES SITE
-The live site has NOT been changed by this file delivery.
+GITHUB DESKTOP — UPDATE YOUR EXISTING SITE
+This file delivery does not change or publish the live site.
+1. Keep a backup of your current repository files.
+2. Select SIB-Site in GitHub Desktop and choose Repository > Show in Finder.
+3. Copy the SEVEN FILES INSIDE this extracted ZIP into the repository folder that GitHub Pages publishes.
+   Replace matching filenames. Do not copy the ZIP itself or its enclosing folder.
+4. Review Changes. The redirect may be unchanged, so six changed files is expected when updating from 3.1.
+5. Enter a summary such as "Update Evidence Lab pedagogy to version 3.2", commit, then choose Push origin.
+6. Wait for the existing Pages deployment to finish. Open your site and hard-refresh.
+7. Confirm the game footer and independent assessment show Version 3.2.
+8. Check the old sib.html link still redirects to the updated main page.
 
-1. Keep a backup of your existing repository files.
-2. In FranklinAlan/SIB-Site, open the branch/folder that GitHub Pages publishes.
-   Your current index.html and sib.html were found on the main branch.
-3. In GitHub Desktop, select the SIB-Site repository and choose Repository > Show in Finder.
-   Copy the SEVEN FILES INSIDE this ZIP into that repository folder.
-   Do not copy the ZIP itself or an enclosing folder.
-4. Replace files with the same names. In GitHub Desktop, review Changes, enter a summary
-   such as "Add original reasoning and reflection", commit, and choose Push origin.
-   You do not need to delete unrelated files or the whole repository.
-5. Wait for the repository's Pages deployment to finish successfully.
-6. Open https://franklinalan.github.io/SIB-Site/ and hard-refresh.
-   Confirm that the footer says Version 3.1, the evidence call has a written explanation,
-   and the final editorial action leads to reflection.
-7. Check https://franklinalan.github.io/SIB-Site/sib.html too.
-   The supplied redirect opens index.html, so the older link reaches the update.
+Existing site: https://franklinalan.github.io/SIB-Site/
+Legacy link: https://franklinalan.github.io/SIB-Site/sib.html
+Use the repository's existing publishing folder. Do not delete unrelated files or change Pages configuration.
 
-Avoid filenames such as index(1).html or index(2).html in the repository.
-The published home page must be named exactly index.html.
-If Pages publishes /docs instead of the repository root, put these files in /docs.
-Use the existing Pages configuration; there is no need to create a new site.
-
-CLASSROOM USE
-Read teacher-guide.html first. Students make individual first responses.
-If using the independent cases, give assessment.html after the game and reflection, and BEFORE
-peer discussion or the debrief. It is intentionally not an automatic game stage.
-Then debrief with the contrasting example in the guide.
-
-Plan 20–25 minutes of game and reflection time, roughly 5–8 minutes for the optional cases,
-and 3–5 minutes of discussion. The proposed full research session needs additional baseline and follow-up materials. These are estimates to check during a walkthrough.
-All case details are fictional. This is guided evidence evaluation, not a secure exam.
+CLASSROOM SEQUENCE
+Game -> independent assessment A-D -> discussion and experimental contrast.
+Students make initial responses individually. Evidence remains available, but supplied reasons appear only AFTER the original explanation is saved/skipped.
+For paper practice, release Stage 1 first and collect/check it before Stage 2; Stage 2 contains supplied reasons. Release Stage 3 after the editorial decision.
+Do not show the assessment key or debrief example before independent responses are saved.
+The working game target is 20-25 minutes; verify it. For initial scheduling, allow up to 30 minutes for the game, 15 for the expanded assessment, and 5 for discussion. These are provisional allowances, not measured times.
 
 RECORDS
-Game and assessment save separately in this browser. Nothing is uploaded or
-submitted automatically. Use CSV, JSON, or printing when you need a retained
-record under your authorized classroom/research procedure. No name is requested;
-the assessment offers an optional instructor-assigned code.
+Nothing uploads or submits automatically. Download CSV/JSON or print if requested.
+Game CSV: one row per attempt. Original reasoning and supplied-choice responses are distinct. First/final evidence-note drafts remain separate. Student writing is not automatically graded or approved.
+Reflection: typed responses = saved; paper/oral completion self-report = external_reported; skipped = skipped.
+Paper/oral content and facilitator verification are NOT stored in the game. Keep and verify the separate paper/facilitator record. The game records the reported mode, not a verified external response.
+Assessment CSV: FOUR rows for ONE student's A-D record. Optional experience ratings repeat on each row; analyze once per student. Skipped cases export as missing. record_submitted differs from assessment_complete (all four cases answered).
+No automatic scores are supplied on the student assessment. The guide contains proposed rubrics.
+If you need to link files, use your approved facilitator procedure; game and assessment do not automatically match records.
 
-A game CSV has one row. Original explanation and reflection fields are separate.
-editorial_completed records the final action. reflection_status is not_started, pending,
-saved, or skipped. case_completed means editorial completion plus saved/skipped reflection;
-it does not measure learning. Missing writing is not an incorrect answer. An assessment CSV has three rows for ONE student's
-three cases. Optional experience ratings repeat on those three rows; analyze
-those ratings once per student. These are not three independent participants.
-
-Start over resets the game. New attempt resets the assessment. Save needed
-records before resetting. Game version 3.1 uses its own storage key; it does not overwrite or import version 3.0
-responses. Export any needed old records from the old version before replacing files.
-The unchanged assessment remains version 3.0 and retains its existing storage key.
-The new game does not delete older-version browser records. On shared devices, also
-clear any older records through the browser/site data controls when authorized.
+VERSION CHANGES
+Both game and assessment have new 3.2 browser storage keys. Older 3.1/3.0 records are not overwritten, imported, deleted, or relabelled.
+Before replacing older files, export any needed older records using that earlier version. New records begin fresh.
+Game Start over and assessment New attempt reset only their own 3.2 records. On shared devices, clear older site data too when authorized.
 
 EVALUATION LIMITS
-This is the first workshop refinement. It does not yet include the matched plain lesson,
-three expanded assessment forms, baseline/follow-up scheduling, or automatic data collection.
-The game is practice. A first pilot can describe feasibility and performance
-on these few fresh cases. It cannot establish improvement, broad media literacy,
-calibration, lasting transfer, or the benefit of the game format on its own.
-No confidence scale, PCT elicitation, extra stations, or click-history logging
-has been added. See the guide for the proposed reason rubric and study limits.
-
-VERIFICATION
-Verification results for this update are documented in research-changes.html.
-Test classroom devices and assistive technology before using the activity with a class.
+This is guided practice plus a small independent assessment. Completion, enjoyment, changing one's mind, and reflection length are not evidence of learning.
+The package does not establish intervention effectiveness, broad misinformation resistance, calibration, lasting transfer, or a PCT mechanism.
+It does not include the matched plain lesson, expanded alternate assessment forms, baseline/follow-up scheduling, consent collection, or automatic research uploads.
+Read research-changes.html for functional checks. Test your classroom devices and assistive technology before use.
