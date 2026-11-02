@@ -1,0 +1,91 @@
+SIB: THE EVIDENCE LAB
+Seeing Isn't Believing | Undergraduate psychology | Version 1.0
+
+YOUR FIRST VERSION
+One untimed Message Desk investigation for the proposed EKU psychology pilot.
+Students review a fictional FocusBoost app claim, inspect three evidence cards,
+choose a conclusion and a reason, and review an accurate newsletter bulletin.
+This is the small first step for Idea 1, not the full five-station game.
+
+OPEN THE GAME
+1. Extract (unzip) SIB_Evidence_Lab_Prototype.zip.
+2. Open index.html in a modern browser with JavaScript enabled.
+3. Select Enter the lab, or open the Message Desk.
+4. Explore the cards, select both answers, and submit to see the explanation.
+5. Choose Add reviewed bulletin to notebook to complete the case.
+
+Keep these files together:
+  index.html           The complete playable game
+  teacher-guide.html   Facilitator guide, answer key, and optional pilot sheet
+  START_HERE.txt       These instructions
+
+The offline game needs no installation, internet, account, or API key.
+If double-clicking opens a text editor, use Open With and choose your browser.
+If a classroom policy blocks local HTML, use an approved static web host.
+
+WHAT CHANGED
+- SIB branding and an EKU undergraduate psychology briefing.
+- One active Message Desk, using the supplied room illustration and colors.
+- Three evidence cards about a fictional comparison of app users and nonusers.
+- Separate conclusion and reason choices, with response-specific feedback.
+- First submitted answer preserved before feedback; printable notebook report.
+- Untimed play, an optional hint, local progress, and a confirmed reset.
+- Completion after reviewing feedback, even when the first answer is incorrect.
+- No cybersecurity puzzles, exit codes, five-case requirement, or leaderboard.
+- No PCT elicitation, confidence ratings, calibration scores, or research backend.
+
+FACILITATORS
+Open teacher-guide.html. It contains the case, answer key, suggested debrief,
+accessibility notes, research limits, and an optional observation-sheet template.
+Use individual play for a simple first usability pilot. Pair responses should be
+treated as pair responses. Allow roughly 5-10 minutes plus debrief as an untested
+planning estimate. Do not provide the answer before students submit it.
+
+SAVES AND REPORTS
+The game saves progress only in this browser when local storage is available.
+It does not send answers or analytics anywhere. It requests no names or IDs.
+Local-file storage varies by browser. Keep the tab open if a saving warning
+appears. Moving the file or switching browsers may start a separate save.
+Notebook > Print / save report opens the browser's print dialog. Select its
+Save as PDF option if available. Nothing is automatically sent to an instructor.
+Use Start over and confirm between students on a shared device. Save a report
+first if you want to keep it; resetting clears this case's previous responses.
+
+BEFORE COPYING INTO YOUR EXISTING SIB-SITE FOLDER
+Preview this package separately first. It is an update to the supplied game,
+not a replacement for every page, image, or video in your existing website.
+The simplest way to keep your current homepage is to place these three files
+together in a new subfolder named evidence-lab in your site's published folder.
+On a site served from the repository root, that gives this relative address:
+  evidence-lab/index.html
+The matching full address would be:
+  https://franklinalan.github.io/SIB-Site/evidence-lab/
+That address will work only after those files are published by your site's
+existing deployment configuration. This package has not been uploaded or
+published for you. Avoid overwriting your existing root index.html unless you
+intend to replace your homepage. Keep a backup of existing files before copying.
+
+RESEARCH SCOPE
+This is a new SIB-inspired teaching prototype, not a validated intervention.
+The game does not implement research collection. Research use of responses or
+observations must follow the applicable institutional human-subjects review
+and approved procedures. One guided case can help identify usability problems;
+it cannot establish transfer, calibration, or lasting learning.
+
+SOURCE
+index.html is self-contained HTML, CSS, JavaScript, and SVG. The adapted room
+illustration comes from the supplied CyberQuest classroom game. FocusBoost and
+all study details are fictional; they are not EKU research results. All answers
+are visible in the source. Use as supported practice, not a secure exam.
+
+BEFORE CLASS
+Check opening, keyboard controls, saving, and printing on your actual devices.
+Keep the facilitator guide separate if you do not want to reveal the answer key.
+
+CHECKED IN THIS VERSION
+Browser checks covered desktop and a 390px layout, evidence cards, required
+answers, hint use, saved drafts, preserved first submissions, each feedback
+branch, completion, reset confirmation, and generated report content. HTML
+references, local links, JavaScript syntax, and bundled dependencies were checked.
+Final printer/PDF rendering, other browsers, and assistive technology still
+need checking on the classroom devices.
