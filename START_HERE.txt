@@ -1,12 +1,19 @@
 SIB EVIDENCE LAB — RESEARCH UPDATE
-Version 3.0.0-research | 2 November 2026
+Version 3.1.0-reflection | 2 November 2026
 
 START
 1. Extract this ZIP. Do not open the HTML from inside the compressed ZIP.
 2. Open index.html in Chrome, Edge, Firefox, or Safari.
 3. Keep all files in the same folder. No installation or build is required.
 
-WHAT CHANGED
+WHAT CHANGED IN 3.1
+- Write an explanation of the causal judgment before feedback, or explicitly skip it.
+- Revisit that explanation after the editorial decision. Retain, clarify, revise, or remain unsure.
+- Save three reflection responses, or explicitly skip the reflection. No reflection choice is scored.
+- Original and later reasoning are separate in the notebook, print report, CSV, and JSON.
+- Draft writing saves as you type. A new game storage key separates version 3.1 from 3.0 records.
+
+RETAINED FROM 3.0
 - Students judge a supported descriptive finding alongside an unresolved causal claim.
 - Reason and headline choices are similar in length and tone.
 - Students select an accurate headline and decisive evidence before seeing their completed bulletin.
@@ -30,13 +37,16 @@ The live site has NOT been changed by this file delivery.
 1. Keep a backup of your existing repository files.
 2. In FranklinAlan/SIB-Site, open the branch/folder that GitHub Pages publishes.
    Your current index.html and sib.html were found on the main branch.
-3. Choose Add file > Upload files. Upload the SEVEN FILES INSIDE this ZIP,
-   not the ZIP itself and not an enclosing folder.
-4. Replace files with the same names. Commit the upload.
+3. In GitHub Desktop, select the SIB-Site repository and choose Repository > Show in Finder.
+   Copy the SEVEN FILES INSIDE this ZIP into that repository folder.
+   Do not copy the ZIP itself or an enclosing folder.
+4. Replace files with the same names. In GitHub Desktop, review Changes, enter a summary
+   such as "Add original reasoning and reflection", commit, and choose Push origin.
    You do not need to delete unrelated files or the whole repository.
 5. Wait for the repository's Pages deployment to finish successfully.
 6. Open https://franklinalan.github.io/SIB-Site/ and hard-refresh.
-   Confirm that the footer says Version 3.0 and the evidence call has two claims.
+   Confirm that the footer says Version 3.1, the evidence call has a written explanation,
+   and the final editorial action leads to reflection.
 7. Check https://franklinalan.github.io/SIB-Site/sib.html too.
    The supplied redirect opens index.html, so the older link reaches the update.
 
@@ -47,12 +57,12 @@ Use the existing Pages configuration; there is no need to create a new site.
 
 CLASSROOM USE
 Read teacher-guide.html first. Students make individual first responses.
-If using the independent cases, give assessment.html after the game and BEFORE
+If using the independent cases, give assessment.html after the game and reflection, and BEFORE
 peer discussion or the debrief. It is intentionally not an automatic game stage.
 Then debrief with the contrasting example in the guide.
 
-Plan 15–20 minutes of game time, roughly 5–8 minutes for the optional cases,
-and 3–5 minutes of discussion. These are estimates to check during a walkthrough.
+Plan 20–25 minutes of game and reflection time, roughly 5–8 minutes for the optional cases,
+and 3–5 minutes of discussion. The proposed full research session needs additional baseline and follow-up materials. These are estimates to check during a walkthrough.
 All case details are fictional. This is guided evidence evaluation, not a secure exam.
 
 RECORDS
@@ -61,15 +71,23 @@ submitted automatically. Use CSV, JSON, or printing when you need a retained
 record under your authorized classroom/research procedure. No name is requested;
 the assessment offers an optional instructor-assigned code.
 
-A game CSV has one row. An assessment CSV has three rows for ONE student's
+A game CSV has one row. Original explanation and reflection fields are separate.
+editorial_completed records the final action. reflection_status is not_started, pending,
+saved, or skipped. case_completed means editorial completion plus saved/skipped reflection;
+it does not measure learning. Missing writing is not an incorrect answer. An assessment CSV has three rows for ONE student's
 three cases. Optional experience ratings repeat on those three rows; analyze
 those ratings once per student. These are not three independent participants.
 
 Start over resets the game. New attempt resets the assessment. Save needed
-records before resetting. Version 3 uses its own storage keys, so older-version
-choices are not silently treated as responses to the revised tasks.
+records before resetting. Game version 3.1 uses its own storage key; it does not overwrite or import version 3.0
+responses. Export any needed old records from the old version before replacing files.
+The unchanged assessment remains version 3.0 and retains its existing storage key.
+The new game does not delete older-version browser records. On shared devices, also
+clear any older records through the browser/site data controls when authorized.
 
 EVALUATION LIMITS
+This is the first workshop refinement. It does not yet include the matched plain lesson,
+three expanded assessment forms, baseline/follow-up scheduling, or automatic data collection.
 The game is practice. A first pilot can describe feasibility and performance
 on these few fresh cases. It cannot establish improvement, broad media literacy,
 calibration, lasting transfer, or the benefit of the game format on its own.
@@ -77,8 +95,5 @@ No confidence scale, PCT elicitation, extra stations, or click-history logging
 has been added. See the guide for the proposed reason rubric and study limits.
 
 VERIFICATION
-Syntax, local links, and 108 full logic paths passed. Browser checks covered
-evidence, source tracing, hints, incorrect-answer feedback, headline revision,
-the publish outcome, reload/resume, locked assessment responses, and CSV downloads.
-Both publish and hold outcomes passed the logic checks. Test classroom devices,
-assistive technology, and printed layouts before a class session.
+Verification results for this update are documented in research-changes.html.
+Test classroom devices and assistive technology before using the activity with a class.
