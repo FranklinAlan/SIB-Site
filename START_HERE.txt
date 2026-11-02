@@ -1,91 +1,84 @@
-SIB: THE EVIDENCE LAB
-Seeing Isn't Believing | Undergraduate psychology | Version 1.0
+SIB EVIDENCE LAB — RESEARCH UPDATE
+Version 3.0.0-research | 2 November 2026
 
-YOUR FIRST VERSION
-One untimed Message Desk investigation for the proposed EKU psychology pilot.
-Students review a fictional FocusBoost app claim, inspect three evidence cards,
-choose a conclusion and a reason, and review an accurate newsletter bulletin.
-This is the small first step for Idea 1, not the full five-station game.
-
-OPEN THE GAME
-1. Extract (unzip) SIB_Evidence_Lab_Prototype.zip.
-2. Open index.html in a modern browser with JavaScript enabled.
-3. Select Enter the lab, or open the Message Desk.
-4. Explore the cards, select both answers, and submit to see the explanation.
-5. Choose Add reviewed bulletin to notebook to complete the case.
-
-Keep these files together:
-  index.html           The complete playable game
-  teacher-guide.html   Facilitator guide, answer key, and optional pilot sheet
-  START_HERE.txt       These instructions
-
-The offline game needs no installation, internet, account, or API key.
-If double-clicking opens a text editor, use Open With and choose your browser.
-If a classroom policy blocks local HTML, use an approved static web host.
+START
+1. Extract this ZIP. Do not open the HTML from inside the compressed ZIP.
+2. Open index.html in Chrome, Edge, Firefox, or Safari.
+3. Keep all files in the same folder. No installation or build is required.
 
 WHAT CHANGED
-- SIB branding and an EKU undergraduate psychology briefing.
-- One active Message Desk, using the supplied room illustration and colors.
-- Three evidence cards about a fictional comparison of app users and nonusers.
-- Separate conclusion and reason choices, with response-specific feedback.
-- First submitted answer preserved before feedback; printable notebook report.
-- Untimed play, an optional hint, local progress, and a confirmed reset.
-- Completion after reviewing feedback, even when the first answer is incorrect.
-- No cybersecurity puzzles, exit codes, five-case requirement, or leaderboard.
-- No PCT elicitation, confidence ratings, calibration scores, or research backend.
+- Students judge a supported descriptive finding alongside an unresolved causal claim.
+- Reason and headline choices are similar in length and tone.
+- Students select an accurate headline and decisive evidence before seeing their completed bulletin.
+- Two short posts trace to one fictional study.
+- Three unfamiliar assessment cases are separate from gameplay and provide no hints or feedback.
+- Original first responses remain saved; headline revisions do not overwrite them.
+- Optional hints, untimed play, the lab design, and a short instructor debrief remain.
 
-FACILITATORS
-Open teacher-guide.html. It contains the case, answer key, suggested debrief,
-accessibility notes, research limits, and an optional observation-sheet template.
-Use individual play for a simple first usability pilot. Pair responses should be
-treated as pair responses. Allow roughly 5-10 minutes plus debrief as an untested
-planning estimate. Do not provide the answer before students submit it.
+FILES
+index.html             Main game. Self-contained; no external assets.
+sib.html               Redirect for people using your older sib.html link.
+assessment.html        Separate three-case assessment, printable or interactive.
+teacher-guide.html     Facilitation, keys, reason rubric, debrief, and evaluation limits.
+response-sheet.html    Printable record for the FocusBoost practice activity.
+research-changes.html  Research-to-change map, source links, and verification notes.
+START_HERE.txt         These instructions.
 
-SAVES AND REPORTS
-The game saves progress only in this browser when local storage is available.
-It does not send answers or analytics anywhere. It requests no names or IDs.
-Local-file storage varies by browser. Keep the tab open if a saving warning
-appears. Moving the file or switching browsers may start a separate save.
-Notebook > Print / save report opens the browser's print dialog. Select its
-Save as PDF option if available. Nothing is automatically sent to an instructor.
-Use Start over and confirm between students on a shared device. Save a report
-first if you want to keep it; resetting clears this case's previous responses.
+UPDATE YOUR EXISTING GITHUB PAGES SITE
+The live site has NOT been changed by this file delivery.
 
-BEFORE COPYING INTO YOUR EXISTING SIB-SITE FOLDER
-Preview this package separately first. It is an update to the supplied game,
-not a replacement for every page, image, or video in your existing website.
-The simplest way to keep your current homepage is to place these three files
-together in a new subfolder named evidence-lab in your site's published folder.
-On a site served from the repository root, that gives this relative address:
-  evidence-lab/index.html
-The matching full address would be:
-  https://franklinalan.github.io/SIB-Site/evidence-lab/
-That address will work only after those files are published by your site's
-existing deployment configuration. This package has not been uploaded or
-published for you. Avoid overwriting your existing root index.html unless you
-intend to replace your homepage. Keep a backup of existing files before copying.
+1. Keep a backup of your existing repository files.
+2. In FranklinAlan/SIB-Site, open the branch/folder that GitHub Pages publishes.
+   Your current index.html and sib.html were found on the main branch.
+3. Choose Add file > Upload files. Upload the SEVEN FILES INSIDE this ZIP,
+   not the ZIP itself and not an enclosing folder.
+4. Replace files with the same names. Commit the upload.
+   You do not need to delete unrelated files or the whole repository.
+5. Wait for the repository's Pages deployment to finish successfully.
+6. Open https://franklinalan.github.io/SIB-Site/ and hard-refresh.
+   Confirm that the footer says Version 3.0 and the evidence call has two claims.
+7. Check https://franklinalan.github.io/SIB-Site/sib.html too.
+   The supplied redirect opens index.html, so the older link reaches the update.
 
-RESEARCH SCOPE
-This is a new SIB-inspired teaching prototype, not a validated intervention.
-The game does not implement research collection. Research use of responses or
-observations must follow the applicable institutional human-subjects review
-and approved procedures. One guided case can help identify usability problems;
-it cannot establish transfer, calibration, or lasting learning.
+Avoid filenames such as index(1).html or index(2).html in the repository.
+The published home page must be named exactly index.html.
+If Pages publishes /docs instead of the repository root, put these files in /docs.
+Use the existing Pages configuration; there is no need to create a new site.
 
-SOURCE
-index.html is self-contained HTML, CSS, JavaScript, and SVG. The adapted room
-illustration comes from the supplied CyberQuest classroom game. FocusBoost and
-all study details are fictional; they are not EKU research results. All answers
-are visible in the source. Use as supported practice, not a secure exam.
+CLASSROOM USE
+Read teacher-guide.html first. Students make individual first responses.
+If using the independent cases, give assessment.html after the game and BEFORE
+peer discussion or the debrief. It is intentionally not an automatic game stage.
+Then debrief with the contrasting example in the guide.
 
-BEFORE CLASS
-Check opening, keyboard controls, saving, and printing on your actual devices.
-Keep the facilitator guide separate if you do not want to reveal the answer key.
+Plan 15–20 minutes of game time, roughly 5–8 minutes for the optional cases,
+and 3–5 minutes of discussion. These are estimates to check during a walkthrough.
+All case details are fictional. This is guided evidence evaluation, not a secure exam.
 
-CHECKED IN THIS VERSION
-Browser checks covered desktop and a 390px layout, evidence cards, required
-answers, hint use, saved drafts, preserved first submissions, each feedback
-branch, completion, reset confirmation, and generated report content. HTML
-references, local links, JavaScript syntax, and bundled dependencies were checked.
-Final printer/PDF rendering, other browsers, and assistive technology still
-need checking on the classroom devices.
+RECORDS
+Game and assessment save separately in this browser. Nothing is uploaded or
+submitted automatically. Use CSV, JSON, or printing when you need a retained
+record under your authorized classroom/research procedure. No name is requested;
+the assessment offers an optional instructor-assigned code.
+
+A game CSV has one row. An assessment CSV has three rows for ONE student's
+three cases. Optional experience ratings repeat on those three rows; analyze
+those ratings once per student. These are not three independent participants.
+
+Start over resets the game. New attempt resets the assessment. Save needed
+records before resetting. Version 3 uses its own storage keys, so older-version
+choices are not silently treated as responses to the revised tasks.
+
+EVALUATION LIMITS
+The game is practice. A first pilot can describe feasibility and performance
+on these few fresh cases. It cannot establish improvement, broad media literacy,
+calibration, lasting transfer, or the benefit of the game format on its own.
+No confidence scale, PCT elicitation, extra stations, or click-history logging
+has been added. See the guide for the proposed reason rubric and study limits.
+
+VERIFICATION
+Syntax, local links, and 108 full logic paths passed. Browser checks covered
+evidence, source tracing, hints, incorrect-answer feedback, headline revision,
+the publish outcome, reload/resume, locked assessment responses, and CSV downloads.
+Both publish and hold outcomes passed the logic checks. Test classroom devices,
+assistive technology, and printed layouts before a class session.
